@@ -1,0 +1,70 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: sad slut club
+description: > # this means to ignore newlines until "baseurl:"
+  dance club for sad thots
+repository: https://github.com/pantywitch/pantywitch.github.io
+baseurl: / # the subpath of your site, e.g. /blog
+url: https://pantywitch.github.io  # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+# Sass settings
+sass:
+  style: compressed
+
+# Theme settings
+theme_mode: markdown  # choices are: 'dark', 'standard', 'markdown'
+
+# Customizations
+your_name: selkie
+email: selkie@sadslut.club
+
+navigation:
+  - text: home
+    url: /
+  - text: blog
+    url: /blog
+  - text: ttrpgs
+    url: /ttrpgs
+  - text: art
+    url: /art
+  - text: writing
+    url: /writing
+  - text: misc projects
+    url: /misc
+
+projects:
+  - name: monster girl maker
+    description: an oldish pixel-art monster girl dress up game with limited options. circa 2016 or 2017
+    link: https://selkie.itch.io/monster-girl-maker
+    image: https://github.com/pantywitch/files/blob/master/monstergirlmakercover.png?raw=true
+
+social:
+  - service: github
+    username: pantywitch
+    link: https://github.com/pantywitch
+  - service: twitter
+    username: pantywitch
+    link: https://twitter.com/pantywitch
+  - service: patreon
+    username: pantywitch
+    link: https://patreon.com/pantywitch
+
+# Plugins
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jemoji
+
+# If using another social media website other than github
+#jekyll-mentions:
+  #base_url: https://twitter.com
