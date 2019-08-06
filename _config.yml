@@ -59,7 +59,7 @@ social:
     link: https://patreon.com/pantywitch
 
 # Plugins
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-mentions
