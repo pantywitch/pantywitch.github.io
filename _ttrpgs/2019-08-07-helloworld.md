@@ -1,10 +1,10 @@
 ---
 layout: post
-title: hello world
-date: 2019-08-06 04:20:00
+title: hello world of tabletop rpgs
+date: 2019-08-07 03:07:07
 author: selkie
 short_description: h-hewwo?
 image_preview: https://github.com/pantywitch/files/blob/master/him.png?raw=true
 ---
-it's 4am i'm tired
+it's 3am i'm tired
 :sparkles:
