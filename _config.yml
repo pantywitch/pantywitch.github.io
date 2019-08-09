@@ -42,9 +42,6 @@ navigation:
     url: /misc
 
 social:
-  - service: github
-    username: pantywitch
-    link: https://github.com/pantywitch
   - service: twitter
     username: pantywitch
     link: https://twitter.com/pantywitch
@@ -59,7 +56,6 @@ social:
 collections_dir: collections
 collections:
   - art
-  - projects
   - ttrpgs
   - writing
 

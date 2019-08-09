@@ -1,4 +1,4 @@
-{% for post in site.posts %}
+{% for post in site.tags.blog %}
 	{% assign nth = forloop.index0 | modulo:2 %}
 	<div class="media t-hackcss-media">
 

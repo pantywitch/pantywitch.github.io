@@ -13,7 +13,7 @@
         </p>
 
         {% for social in site.social %}
-          {% assign template = social.service|prepend:"icon-"|append:".html" %}
+          {% assign template = social.service|prepend:"icon-"|append:".png" %}
           <span class="t-hackcss-social">
             <i class="t-hackcss-icon">{% include {{ template }} %}</i>
             <a href="{{ social.link }}">{{ social.username }}</a>

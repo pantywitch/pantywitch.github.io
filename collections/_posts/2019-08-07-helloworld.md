@@ -3,7 +3,7 @@ layout: post
 title: hello world of tabletop rpgs
 date: 2019-08-07 03:07:07
 author: selkie
-tags: ttrpgs blog
+tags: [ttrpgs, blog]
 short_description: h-hewwo?
 image_preview: https://github.com/pantywitch/files/blob/master/him.png?raw=true
 ---
