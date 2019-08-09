@@ -1,0 +1,13 @@
+social:
+  - service: github
+    username: pantywitch
+    link: https://github.com/pantywitch
+  - service: twitter
+    username: pantywitch
+    link: https://twitter.com/pantywitch
+  - service: instagram
+    username: pantywitchcraft
+    link: https://instagram.com/pantywitchcraft
+  - service: patreon
+    username: pantywitch
+    link: https://patreon.com/pantywitch

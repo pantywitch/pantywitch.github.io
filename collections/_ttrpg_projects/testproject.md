@@ -1,6 +1,0 @@
----
-name: thing
-description: very cool test
-link: https://www.google.com/
-image: https://github.com/pantywitch/files/blob/master/him.png?raw=true
----

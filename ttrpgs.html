@@ -20,7 +20,7 @@ permalink: /ttrpgs/
 <section>
   <h2>posts & links</h2>
 
-  {% for post in site.ttrpg_posts %}
+  {% for post in site.category.ttrpgs %}
     {% assign nth = forloop.index0 | modulo:2 %}
     <div class="media t-hackcss-media">
 
@@ -69,7 +69,7 @@ permalink: /ttrpgs/
 
   <div class="grid t-hackcss-cards">
 
-    {% for project in site.ttrpg_projects %}
+    {% for project in site.data.ttrpg_projects %}
 
     <div class="cell -6of12 t-hackcss-cards-cell">
       <div class="card">

@@ -6,7 +6,7 @@ permalink: /writing/
 <section>
   <h1>my writings</h1>
 
-  {% for post in site.writing %}
+  {% for post in site.category.writing %}
     {% assign nth = forloop.index0 | modulo:2 %}
     <div class="media t-hackcss-media">
     {% if nth == 0 %}

@@ -8,7 +8,7 @@ permalink: /art/
 
 	<p>most of my art can be found on my <a href="http://twitter.com/pantywitch">twitter</a> or <a href="http://instagram.com/pantywitchcraft">instagram.</a>
 
-  {% for post in site.art %}
+  {% for post in site.category.art %}
     {% assign nth = forloop.index0 | modulo:2 %}
     <div class="media t-hackcss-media">
     {% if nth == 0 %}

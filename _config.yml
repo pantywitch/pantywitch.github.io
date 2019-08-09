@@ -46,9 +46,7 @@ collections_dir: collections
 collections:
   - art
   - projects
-  - social
-  - ttrpg_posts
-  - ttrpg_projects
+  - ttrpgs
   - writing
 
 # Plugins
