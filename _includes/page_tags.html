@@ -1,4 +1,20 @@
 {% assign tag = page.tags %}
-<p>
-	tags: <a href="/{{ tag[0] }}/">{{ tag[0] }}</a>,
-</p>
+	{% assign nth = tag.index0 %}
+
+		{% if nth == 0 %}
+		<p>
+			tags: <a href="/{{ tag[0] }}/">{{ tag[0] }}</a>
+		</p>
+		{% endif %}
+
+		{% if nth == 1 %}
+		<p>
+			tags: <a href="/{{ tag[0] }}/">{{ tag[0] }}</a>, <a href="/{{ tag[1] }}/">{{ tag[1] }}</a>
+		</p>
+		{% endif %}
+
+		{% if nth == 2 %}
+		<p>
+			tags: <a href="/{{ tag[0] }}/">{{ tag[0] }}</a>, <a href="/{{ tag[1] }}/">{{ tag[1] }}</a>, <a href="/{{ tag[2] }}/">{{ tag[2] }}</a>
+		</p>
+		{% endif %}
