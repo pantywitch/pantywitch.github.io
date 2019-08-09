@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: ttrpgs
+permalink: /ttrpgs/
 ---
 
 <section>
@@ -20,15 +20,15 @@ permalink: ttrpgs
 <section>
   <h2>posts & links</h2>
 
-  {% for ttrpg in site.posts %}
+  {% for post in site.ttrpg_posts %}
     {% assign nth = forloop.index0 | modulo:2 %}
     <div class="media t-hackcss-media">
 
       {% if nth == 0 %}
       <div class="t-hackcss-media-shift media-left">
         <img class="t-hackcss-media-image"
-             src="{{ ttrpg.image_preview }}" alt="{{ ttrpg.title }}"
-             title="{{ ttrpg.title }}" />
+             src="{{ post.image_preview }}" alt="{{ post.title }}"
+             title="{{ post.title }}" />
       </div>
       {% endif %}
 
@@ -36,30 +36,31 @@ permalink: ttrpgs
         <div class="media-heading">
           <span>{{ post.date | date_to_string }} &raquo;
             {% if post.external_url %}
-              <a href="{{ ttrpg.external_url }}" target="_blank" title="{{ ttrpg.name }}">
-                {{ ttrpg.title }}
+              <a href="{{ post.external_url }}" target="_blank" title="{{ project.name }}">
+                {{ post.title }}
               </a>
             {% else %}
-              <a href="{{ ttrpg.url | prepend: site.baseurl }}" title="{{ ttrpg.name }}">
-                {{ ttrpg.title }}
+              <a href="{{ post.url | prepend: site.baseurl }}" title="{{ project.name }}">
+                {{ post.title }}
               </a>
             {% endif %}
           </span>
         </div>
         <div class="media-content">
-          {{ ttrpg.short_description }}
+          {{ post.short_description }}
         </div>
       </div>
 
       {% if nth == 1 %}
       <div class="t-hackcss-media-shift media-right">
         <img class="t-hackcss-media-image"
-             src="{{ ttrpg.image_preview }}" alt="{{ ttrpg.title }}"
-             title="{{ ttrpg.title }}" />
+             src="{{ post.image_preview }}" alt="{{ post.title }}"
+             title="{{ post.title }}" />
       </div>
       {% endif %}
     </div>
   {% endfor %}
+
 </section>
 
 <section>
@@ -68,7 +69,7 @@ permalink: ttrpgs
 
   <div class="grid t-hackcss-cards">
 
-    {% for project in site.rpgproject %}
+    {% for project in site.ttrpg_projects %}
 
     <div class="cell -6of12 t-hackcss-cards-cell">
       <div class="card">

@@ -1,12 +1,14 @@
 ---
 layout: default
-permalink: /writing/
+permalink: /art/
 ---
 
 <section>
-  <h1>my writings</h1>
+  <h1>my art</h1>
 
-  {% for post in site.writing %}
+	<p>most of my art can be found on my <a href="http://twitter.com/pantywitch">twitter</a> or <a href="http://instagram.com/pantywitchcraft">instagram.</a>
+
+  {% for post in site.art %}
     {% assign nth = forloop.index0 | modulo:2 %}
     <div class="media t-hackcss-media">
     {% if nth == 0 %}
