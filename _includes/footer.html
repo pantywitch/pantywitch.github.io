@@ -12,7 +12,7 @@
           <a href="mailto:{{ site.email }}">{{ site.email }}</a>
         </p>
 
-        {% for social in site.data.social %}
+        {% for social in site.social %}
           {% assign template = social.service|prepend:"icon-"|append:".html" %}
           <span class="t-hackcss-social">
             <i class="t-hackcss-icon">{% include {{ template }} %}</i>
