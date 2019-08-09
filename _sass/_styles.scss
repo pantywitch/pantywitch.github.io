@@ -20,12 +20,10 @@
 
   &-social {
     display: inline-block;
-    font-size: 16px
   }
 
   &-social + &-social {
     padding-left: $spacing-unit;
-    font-size: 16px
   }
 
   &-sm-reversed-grid.grid {
