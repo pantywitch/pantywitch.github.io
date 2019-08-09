@@ -5,20 +5,20 @@
 
   <div class="grid t-hackcss-sm-reversed-grid">
 
-    <div class="cell -5of12">
+    <div class="cell -3of12">
       <div class="contact-list">
         <p>
           {{ site.your_name }},
           <a href="mailto:{{ site.email }}">{{ site.email }}</a>
         </p>
-
-        {% for social in site.social %}
-          {% assign template = social.service|prepend:"https://github.com/pantywitch/files/blob/master/icons/icon-"|append:".png?raw=true" %}
-          <span class="t-hackcss-social">
-            <i class="t-hackcss-icon">{% include {{ template }} %}</i>
-            <a href="{{ social.link }}">{{ social.username }}</a>
-          </span>
-        {% endfor %}
+        <p>
+          {% for social in site.social %}
+            <span class="t-hackcss-social">
+              <i class="t-hackcss-icon">{{ social.service }}</i>
+              <a href="{{ social.link }}">{{ social.username }}</a>
+            </span>
+          {% endfor %}
+        </p>
       </div>
     </div>
 
