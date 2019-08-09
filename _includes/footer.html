@@ -14,8 +14,7 @@
         <p>
           {% for social in site.social %}
             <span class="t-hackcss-social">
-              <i class="t-hackcss-icon">{{ social.service }}</i>
-              <a href="{{ social.link }}">{{ social.username }}</a>
+            {{ social.service }} <a href="{{ social.link }}">@{{ social.username }}</a>
             </span>
           {% endfor %}
         </p>
