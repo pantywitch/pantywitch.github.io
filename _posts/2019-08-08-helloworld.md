@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: writing
 title: hello world of writing
 date: 2019-08-07 01:58:34
 author: selkie

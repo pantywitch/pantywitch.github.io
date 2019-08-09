@@ -47,6 +47,12 @@ projects:
     link: https://selkie.itch.io/monster-girl-maker
     image: https://github.com/pantywitch/files/blob/master/monstergirlmakercover.png?raw=true
 
+rpgproject:
+    -name: thing
+    description: thing
+    link: thing
+    image: thing
+
 social:
   - service: github
     username: pantywitch

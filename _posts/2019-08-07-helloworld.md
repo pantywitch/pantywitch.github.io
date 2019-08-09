@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ttrpg
 title: hello world of tabletop rpgs
 date: 2019-08-07 03:07:07
 author: selkie
