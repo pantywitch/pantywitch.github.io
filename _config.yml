@@ -43,6 +43,13 @@ navigation:
 
 # Collections
 collections_dir: collections
+collections:
+  - art
+  - projects
+  - social
+  - ttrpg_posts
+  - ttrpg_projects
+  - writing
 
 # Plugins
 plugins:
