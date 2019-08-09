@@ -5,19 +5,17 @@
 
   <div class="grid t-hackcss-sm-reversed-grid">
 
-    <div class="cell -6of12">
+    <div class="cell -8of12">
       <div class="contact-list">
         <p>
           {{ site.your_name }},
           <a href="mailto:{{ site.email }}">{{ site.email }}</a>
         </p>
-        <p style="text-align:left;">
           {% for social in site.social %}
             <span class="t-hackcss-social">
               {{ social.service }}: <a href="{{ social.link }}">@{{ social.username }}</a>
             </span>
           {% endfor %}
-        </p>
       </div>
     </div>
 

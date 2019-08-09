@@ -1,4 +1,8 @@
-{% assign tag = page.tags %}
-		<p>
-			tags: <a href="/{{ tag[0] }}/">{{ tag[0] }}</a>, <a href="/{{ tag[1] }}/">{{ tag[1] }}</a>
-		</p>
+{% for tags in page.tags %}
+	{% assign nth = forloop.index0 %}
+		{% if forloop.last == true %}
+			<a href="/{{ tags[nth] }}/">{{ tags[nth] }}</a>
+		{% else %}
+			<a href="/{{ tags[nth] }}/">{{ tags[nth] }}</a>,
+		{% endif %}
+{% endfor %}
