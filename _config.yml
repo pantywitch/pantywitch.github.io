@@ -14,7 +14,7 @@ baseurl: / # the subpath of your site, e.g. /blog
 url: https://pantywitch.github.io  # the base hostname & protocol for your site
 
 # Build settings
-markdown: kramdown-2.x
+markdown: kramdown
 
 # Sass settings
 sass:
