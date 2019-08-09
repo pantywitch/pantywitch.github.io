@@ -28,6 +28,21 @@ theme_mode: markdown  # choices are: 'dark', 'standard', 'markdown'
 your_name: selkie
 email: selkie@sadslut.club
 
+# Tabletop Projects
+ttrpg_projects:
+  - name: thing
+    description: very cool test
+    link: https://www.google.com/
+    image: https://github.com/pantywitch/files/blob/master/him.png?raw=true
+
+# Misc Projects
+projects:
+  - name: monster girl maker
+    description: an oldish pixel-art monster girl dress up game with limited options. circa 2016 or 2017
+    category: projects
+    link: https://selkie.itch.io/monster-girl-maker
+    image: https://github.com/pantywitch/files/blob/master/monstergirlmakercover.png?raw=true
+
 navigation:
   - text: home
     url: /
@@ -61,7 +76,6 @@ collections:
   - writing
 
 # Defaults
-
 defaults:
   -
     scope:
