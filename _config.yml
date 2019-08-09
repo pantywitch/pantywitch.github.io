@@ -33,7 +33,7 @@ ttrpg_projects:
   - name: thing
     description: very cool test
     link: https://www.google.com/
-    image: https://github.com/pantywitch/files/blob/master/him.png?raw=true
+    image: https://github.com/pantywitch/files/blob/master/icons/him.png?raw=true
 
 # Misc Projects
 projects:
@@ -41,7 +41,7 @@ projects:
     description: an oldish pixel-art monster girl dress up game with limited options. circa 2016 or 2017
     category: projects
     link: https://selkie.itch.io/monster-girl-maker
-    image: https://github.com/pantywitch/files/blob/master/monstergirlmakercover.png?raw=true
+    image: https://github.com/pantywitch/files/blob/master/project%20covers/monstergirlmakercover.png?raw=true
 
 navigation:
   - text: home
