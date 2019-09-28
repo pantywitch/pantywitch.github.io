@@ -1,9 +1,6 @@
-{% assign tags = page.tags %}
-{% for tag in tags %}
-	{% assign x == forloop.index0 %}
-		{% if forloop.last == true %}
-			<a href="/{{ tag[x] }}/">{{ tag[x] }}</a>
-		{% else %}
-			<a href="/{{ tag[x] }}/">{{ tag[x] }}</a>,
-		{% endif %}
-{% endfor %}
+<span>[
+  {% for tag in page.tags %}
+    {% capture tag_name %}{{ tag }}{% endcapture %}
+    <a href="/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+  {% endfor %}
+]</span>
