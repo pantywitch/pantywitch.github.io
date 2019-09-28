@@ -24,6 +24,12 @@ layout: default
     {{ content }}
   </div>
 
-  <p>tags: {% include page_tags.html %}</p>
+  <p>tags:
+  <span>[
+    {% for tag in page.tags %}
+      {% capture tag_name %}{{ tag }}{% endcapture %}
+        <a href="/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+      {% endfor %}
+  ]</span></p>
 
 </article>
