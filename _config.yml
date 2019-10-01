@@ -25,12 +25,12 @@ sass:
 theme_mode: markdown  # choices are: 'dark', 'standard', 'markdown'
 
 # Customizations
-your_name: selkie
+your_name: Selkie
 email: selkie@sadslut.club
 
 # Tabletop Projects
 ttrpg_projects:
-  - name: thing
+  - name: test
     description: very cool test
     link: https://www.google.com/
     image: https://github.com/pantywitch/files/blob/master/icons/him.png?raw=true
@@ -48,8 +48,6 @@ navigation:
     url: /
   - text: blog # Miscellaneous posts and updates, also shows all writing, art, and ttrpg posts mixed together like I was raised in a barn
     url: /blog
-  - text: ttrpgs
-    url: /ttrpgs
   - text: art
     url: /art
   - text: writing
