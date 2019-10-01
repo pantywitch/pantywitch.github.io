@@ -48,7 +48,8 @@ I have been meaning to call my psychiatrist again to get medication because with
 Charlotte
 
 **Informational Links**
-[Borderling Personality Disorder (NIMH)](https://www.nimh.nih.gov/health/topics/borderline-personality-disorder/index.shtml)
+
+[Borderline Personality Disorder (NIMH)](https://www.nimh.nih.gov/health/topics/borderline-personality-disorder/index.shtml)
 
 [Schizophrenia (NIMH)](https://www.nimh.nih.gov/health/topics/schizophrenia/index.shtml)
 
