@@ -49,5 +49,7 @@ Charlotte
 
 **Informational Links**
 [Borderling Personality Disorder (NIMH)](https://www.nimh.nih.gov/health/topics/borderline-personality-disorder/index.shtml)
+
 [Schizophrenia (NIMH)](https://www.nimh.nih.gov/health/topics/schizophrenia/index.shtml)
+
 [Thought Disorders (John Hopkins POC-IT Guide)](https://www.hopkinsguides.com/hopkins/view/Johns_Hopkins_Psychiatry_Guide/787025/all/Thought_Disorder)
