@@ -92,6 +92,7 @@ plugins:
 #Commentbox.io
 commentbox:
  id: 5696039231160320-proj
+ subtextColor: '#FF2687'
 
 # If using another social media website other than github
 #jekyll-mentions:
