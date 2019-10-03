@@ -89,6 +89,10 @@ plugins:
   - jekyll-mentions
   - jemoji
 
+#Commentbox.io
+commentbox:
+ id: 5696039231160320-proj
+
 # If using another social media website other than github
 #jekyll-mentions:
   #base_url: https://twitter.com
